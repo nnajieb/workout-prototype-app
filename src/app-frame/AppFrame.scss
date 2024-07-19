@@ -1,6 +1,14 @@
 .app-frame__container {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     // margin-top: -1rem;
     background-color: rgb(117, 117, 117);
+}
+
+.app-frame__content-container {
+    height: 100%;
+    width: 100%;
+    display: contents;
+    overflow: scroll;
 }

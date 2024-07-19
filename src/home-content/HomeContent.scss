@@ -1,0 +1,36 @@
+.home-content__container {
+    height: 100%;
+    margin: 1rem;
+}
+
+.home-content__gym-memo-container {
+    height: 2.5rem;
+    background-color: red;
+}
+
+.home-content__wod-info-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.home-content__panels-container--left {
+    @extend .home-content__wod-info-container;
+    background-color: orange;
+}
+
+.home-content__panels-container--right {
+    @extend .home-content__wod-info-container;
+    flex-direction: column;
+}
+
+.home-content__wod-notes-container {
+    @extend .home-content__wod-info-container;
+    background-color: yellow;
+}
+
+.home-content__pr-container {
+    @extend .home-content__wod-info-container;
+    background-color: green;
+
+}
